@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>打击乐社 - 2025春季招新</title>
+    <style>
+        body { font-family: "微软雅黑", sans-serif; line-height: 1.8; margin: 0; padding: 0; }
+        .top-nav { background: #2c3e50; padding: 15px 30px; position: sticky; top: 0; z-index: 999; }
+        .nav-link { color: #fff; text-decoration: none; margin: 0 20px; font-size: 18px; }
+        .nav-link:hover { color: #f39c12; }
+        .container { width: 1200px; margin: 0 auto; padding: 30px 0; }
+        .section { margin: 80px 0; padding: 40px; background: #f8f9fa; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #2c3e50; font-size: 36px; margin-bottom: 50px; }
+        h2 { color: #34495e; font-size: 28px; border-left: 5px solid #f39c12; padding-left: 15px; margin-bottom: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 30px 0; }
+        td, th { border: 1px solid #ddd; padding: 15px; text-align: center; }
+        th { background: #34495e; color: #fff; }
+        .btn-top { display: inline-block; background: #f39c12; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 20px 0; }
+        .btn-top:hover { background: #e67e22; }
+        .music-btn { position: absolute; left: 30px; top: 20px; background: #f39c12; color: #fff; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+        .music-btn:hover { background: #e67e22; }
+        .img-show { width: 80%; display: block; margin: 30px auto; border-radius: 10px; cursor: pointer; transition: transform 0.3s; }
+        .img-show:hover { transform: scale(1.05); }
+        .form-table { width: 80%; margin: 30px auto; }
+        .form-table td { text-align: left; padding: 12px 15px; }
+        .form-control { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        .submit-btn { text-align: center; margin: 30px 0; }
+        .submit-btn input { background: #27ae60; color: #fff; border: none; padding: 12px 30px; font-size: 16px; border-radius: 5px; cursor: pointer; margin: 0 10px; }
+        .submit-btn input[type="reset"] { background: #e74c3c; }
+        .submit-btn input:hover { opacity: 0.9; }
+        video { display: block; width: 80%; margin: 30px auto; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <!-- 背景音乐按钮 -->
+    <button class="music-btn" onclick="playMusic()">播放背景音乐</button>
+    <audio id="bgMusic" src="drum-club-theme.mp3" loop>您的浏览器不支持音频播放</audio>
+
+    <!-- 导航栏（锚点链接） -->
+    <div class="top-nav">
+        <a href="#intro" class="nav-link">社团简介</a>
+        <a href="#activity" class="nav-link">活动安排</a>
+        <a href="#show" class="nav-link">风采展示</a>
+        <a href="#story" class="nav-link">社员故事</a>
+        <a href="#apply" class="nav-link">在线报名</a>
+    </div>
+
+    <div class="container">
+        <h1>打击乐社 - 2025春季招新</h1>
+
+        <!-- 1. 社团简介 -->
+        <section id="intro" class="section">
+            <h2>社团简介</h2>
+            <p>打击乐社成立于2010年，是学校极具活力与影响力的艺术社团之一，旨在为热爱打击乐的同学搭建交流学习、展示自我的平台。社团涵盖爵士鼓、非洲鼓、定音鼓、马林巴、手鼓等多种打击乐器，无论你是零基础的新手，还是有一定基础的爱好者，都能在这里找到属于自己的节奏天地。</p>
+            <p>十余年来，社团始终秉持“以鼓会友，以乐传情”的理念，累计吸纳社员超过1500人，培养了大批打击乐人才。社团拥有专业的指导老师3名，其中2名具备国家级演奏资质，定期为社员提供系统教学；同时配备标准化排练室2间，各类专业打击乐器30余套，为日常训练和活动开展提供充足保障。</p>
+            <p>在教学方面，社团采用“分层教学+个性化指导”模式，针对零基础社员开设基础乐理、节奏训练、乐器实操等入门课程，帮助快速掌握演奏技巧；为进阶社员提供风格化演奏、乐队协作、舞台表演等提升课程，助力突破技术瓶颈。此外，社团还定期邀请校外打击乐专家开展讲座、大师课，拓宽社员的艺术视野。</p>
+            <p>社团积极参与各类校园文化活动和校外赛事，每年举办“节奏狂欢夜”专场演出、校园音乐节打击乐独奏/合奏比赛等特色活动，多次代表学校参加省市级大学生艺术展演、全国高校打击乐邀请赛等赛事，累计斩获各类奖项40余项，成为学校艺术教育的一张亮丽名片。</p>
+            <p>除了专业训练和赛事表演，社团还注重社员的课余生活与团队凝聚力。定期组织户外露营鼓圈、音乐沙龙、跨社团合作等活动，让社员在轻松愉快的氛围中交流学习、增进友谊。在这里，你不仅能收获扎实的打击乐技能，更能结识一群志同道合的朋友，共同谱写青春的节奏华章。</p>
+            <a href="#top" class="btn-top">返回顶部</a>
+        </section>
+
+        <!-- 2. 活动安排（跨行列表格） -->
+        <section id="activity" class="section">
+            <h2>2025年春季学期活动安排</h2>
+            <table>
+                <tr>
+                    <th colspan="4">打击乐社2025年春季学期活动安排表</th>
+                </tr>
+                <tr>
+                    <th>活动名称</th>
+                    <th>时间</th>
+                    <th>地点</th>
+                    <th>参与对象</th>
+                </tr>
+                <tr>
+                    <td>新成员见面会</td>
+                    <td>3月10日 19:00-21:00</td>
+                    <td rowspan="2">大学生活动中心302室</td>
+                    <td>全体新社员</td>
+                </tr>
+                <tr>
+                    <td>打击乐基础教学公开课</td>
+                    <td>3月17日 19:00-21:00</td>
+                    <td>全体社员</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">日常训练</td>
+                    <td>每周五 18:30-21:00</td>
+                    <td>排练室A（爵士鼓/非洲鼓）</td>
+                    <td>进阶社员</td>
+                </tr>
+                <tr>
+                    <td>每周日 14:00-17:00</td>
+                    <td>排练室B（马林巴/定音鼓）</td>
+                    <td>全体社员</td>
+                </tr>
+                <tr>
+                    <td>打击乐大师课</td>
+                    <td>4月21日 14:00-16:30</td>
+                    <td>学术报告厅</td>
+                    <td>全体社员</td>
+                </tr>
+                <tr>
+                    <td>校园音乐节打击乐展演</td>
+                    <td>5月18日 19:00-21:30</td>
+                    <td>学校大礼堂</td>
+                    <td>全体社员</td>
+                </tr>
+                <tr>
+                    <td>跨社团合作演出</td>
+                    <td>6月8日 19:00-21:00</td>
+                    <td>大学生活动中心广场</td>
+                    <td>社团骨干成员</td>
+                </tr>
+                <tr>
+                    <td>学期总结暨优秀社员表彰</td>
+                    <td>6月22日 19:00-21:00</td>
+                    <td>大学生活动中心302室</td>
+                    <td>全体社员</td>
+                </tr>
+            </table>
+            <a href="#top" class="btn-top">返回顶部</a>
+        </section>
+
+        <!-- 3. 风采展示（图片+超链接） -->
+        <section id="show" class="section">
+            <h2>风采展示</h2>
+            <p>以下是社团日常训练、演出的精彩瞬间，点击图片可查看详细活动介绍：</p>
+            <a href="club_intro.html" target="_blank">
+                <img src="drum-club-photo.jpg" alt="打击乐社日常演奏照片" class="img-show">
+            </a>
+            <p>照片中，社员们正在进行日常合奏训练，不同打击乐器的节奏相互交织，展现出打击乐独特的魅力。无论是整齐划一的集体演奏，还是个性十足的独奏片段，都彰显着社员们的专业素养和对打击乐的热爱。</p>
+            <p>社团先后参与了校园迎新晚会、毕业季盛典、校外公益演出等各类活动，用激昂的节奏传递青春正能量，赢得了师生和社会各界的广泛好评。</p>
+            <a href="#top" class="btn-top">返回顶部</a>
+        </section>
+
+        <!-- 4. 视频导入 -->
+        <section class="section">
+            <h2>社团宣传视频</h2>
+            <embed src="drum-club-video.mp4" type="video/mp4" width="100%" height="500" controls>
+            <a href="#top" class="btn-top">返回顶部</a>
+        </section>
+
+        <!-- 5. 社员故事 -->
+        <section id="story" class="section">
+            <h2>社员故事（节选）</h2>
+            <p>“第一次接触打击乐，是在大一的迎新晚会上。当社团学长学姐们敲响爵士鼓的那一刻，强劲的节奏瞬间击中了我，那种热血沸腾的感觉，让我立刻下定决心要加入打击乐社。”回忆起加入社团的初衷，大三的李同学依然难掩激动。</p>
+            <p>刚入社时，李同学是不折不扣的零基础小白，连最基本的节拍都抓不准。但社团的学长学姐们并没有嫌弃他，而是耐心地从节拍器练习开始教起，指导他握鼓棒的姿势、发力的技巧。“那段时间，我几乎每天都泡在排练室，从最简单的‘咚咚哒’练起，虽然枯燥，但每次进步一点点，都让我充满成就感。”</p>
+            <p>大二下学期，社团要参加省级大学生艺术展演，李同学被选中加入合奏曲目《节奏狂欢》的排练。为了不拖团队后腿，他每天提前2小时到排练室练习，周末更是全天泡在社团。“有一次，因为过度练习，手腕肿得连鼓棒都握不住，学长看到后，一边给我冰敷，一边教我科学的练习方法，那一刻真的特别温暖。”</p>
+            <p>最终，在团队的共同努力下，他们的作品获得了省级二等奖的好成绩。“站在领奖台上的那一刻，我深刻体会到，打击乐不仅是一门乐器，更是一种团队精神的体现。每个人的节奏都不可或缺，只有相互配合、彼此包容，才能奏响最美的乐章。”</p>
+            <p>和李同学一样，大二的张同学也是因为一次偶然的机会与打击乐结缘。“我原本是个性格内向、不善言辞的人，加入社团后，通过一次次的排练和演出，我变得越来越自信。现在的我，不仅能在舞台上从容演奏，还能主动组织社团活动，这都是打击乐社带给我的成长。”</p>
+            <p>社团里还有很多这样的故事，有人因为打击乐缓解了学业压力，有人通过社团结识了一辈子的朋友，有人甚至确定了未来的职业方向。“在这里，没有高低之分，只有对音乐的热爱。无论你是谁，只要你喜欢打击乐，愿意付出努力，就能在这里找到属于自己的舞台。”社团指导老师王老师这样说道。</p>
+            <p>如果你也热爱节奏，渴望在音乐中释放自我，渴望结识一群志同道合的朋友，那么打击乐社欢迎你的加入！在这里，我们一起用鼓点敲响青春，用节奏书写精彩！</p>
+            <a href="#top" class="btn-top">返回顶部</a>
+        </section>
+
+        <!-- 6. 在线报名 -->
+        <section id="apply" class="section">
+            <h2>在线报名</h2>
+            <form action="" method="post">
+                <table class="form-table">
+                    <tr>
+                        <td>姓名：</td>
+                        <td><input type="text" name="name" class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td>性别：</td>
+                        <td>
+                            <input type="radio" name="gender" value="男" required> 男
+                            <input type="radio" name="gender" value="女"> 女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>出生日期：</td>
+                        <td>
+                            <input type="text" name="birthYear" placeholder="年" class="form-control" style="width: 30%; display: inline-block; margin-right: 5%;" required>
+                            <input type="text" name="birthMonth" placeholder="月" class="form-control" style="width: 30%; display: inline-block; margin-right: 5%;" required>
+                            <input type="text" name="birthDay" placeholder="日" class="form-control" style="width: 30%; display: inline-block;" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>手机号码：</td>
+                        <td><input type="text" name="phone" class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td>电子邮箱：</td>
+                        <td><input type="text" name="email" class="form-control" required></td>
+                    </tr>
+                    <tr>
+                        <td>是否有打击乐基础：</td>
+                        <td>
+                            <input type="radio" name="basis" value="有" required> 有
+                            <input type="radio" name="basis" value="无"> 无
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>兴趣方向（可多选）：</td>
+                        <td>
+                            <input type="checkbox" name="interest" value="爵士鼓"> 爵士鼓
+                            <input type="checkbox" name="interest" value="非洲鼓"> 非洲鼓
+                            <input type="checkbox" name="interest" value="马林巴"> 马林巴
+                            <input type="checkbox" name="interest" value="定音鼓"> 定音鼓
+                            <input type="checkbox" name="interest" value="手鼓"> 手鼓
+                            <input type="checkbox" name="interest" value="其他"> 其他
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>年级：</td>
+                        <td>
+                            <select name="grade" class="form-control" required>
+                                <option value="">请选择年级</option>
+                                <option value="大一">大一</option>
+                                <option value="大二">大二</option>
+                                <option value="大三">大三</option>
+                                <option value="大四">大四</option>
+                                <option value="研究生">研究生</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>自我介绍：</td>
+                        <td><textarea name="intro" rows="5" class="form-control" placeholder="请简单介绍自己、以及加入打击乐社的理由……" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>是否服从活动安排：</td>
+                        <td>
+                            <input type="radio" name="obey" value="是" required> 是
+                            <input type="radio" name="obey" value="否"> 否
+                        </td>
+                    </tr>
+                </table>
+                <div class="submit-btn">
+                    <input type="submit" value="提交报名">
+                    <input type="reset" value="重置表单">
+                </div>
+            </form>
+            <a href="#top" class="btn-top">返回顶部</a>
+        </section>
+    </div>
+
+    <script>
+        function playMusic() {
+            const music = document.getElementById("bgMusic");
+            if (music.paused) {
+                music.play();
+                document.querySelector(".music-btn").innerText = "暂停背景音乐";
+            } else {
+                music.pause();
+                document.querySelector(".music-btn").innerText = "播放背景音乐";
+            }
+        }
+    </script>
+</body>
+</html>
