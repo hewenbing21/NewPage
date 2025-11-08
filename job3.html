@@ -34,13 +34,14 @@
 <body>
     <!-- 背景音乐按钮 -->
     <button class="music-btn" onclick="playMusic()">播放背景音乐</button>
-    <audio id="bgMusic" src="drum-club-theme.mp3" loop>您的浏览器不支持音频播放</audio>
+    <audio id="bgMusic" src="https://hewenbing21.github.io/NewPage/drum-club-theme.mp3" loop>您的浏览器不支持音频播放</audio>
 
     <!-- 导航栏（锚点链接） -->
     <div class="top-nav">
         <a href="#intro" class="nav-link">社团简介</a>
         <a href="#activity" class="nav-link">活动安排</a>
         <a href="#show" class="nav-link">风采展示</a>
+        <a href="#video" class="nav-link">宣传视频</a>
         <a href="#story" class="nav-link">社员故事</a>
         <a href="#apply" class="nav-link">在线报名</a>
     </div>
@@ -127,7 +128,7 @@
             <h2>风采展示</h2>
             <p>以下是社团日常训练、演出的精彩瞬间，点击图片可查看详细活动介绍：</p>
             <a href="club_intro.html" target="_blank">
-                <img src="drum-club-photo.jpg" alt="打击乐社日常演奏照片" class="img-show">
+                <img src="https://hewenbing21.github.io/NewPage/drum-club-photo.jpg" alt="打击乐社日常演奏照片" class="img-show">
             </a>
             <p>照片中，社员们正在进行日常合奏训练，不同打击乐器的节奏相互交织，展现出打击乐独特的魅力。无论是整齐划一的集体演奏，还是个性十足的独奏片段，都彰显着社员们的专业素养和对打击乐的热爱。</p>
             <p>社团先后参与了校园迎新晚会、毕业季盛典、校外公益演出等各类活动，用激昂的节奏传递青春正能量，赢得了师生和社会各界的广泛好评。</p>
@@ -135,9 +136,11 @@
         </section>
 
         <!-- 4. 视频导入 -->
-        <section class="section">
+        <section id="video" class="section">
             <h2>社团宣传视频</h2>
-            <embed src="drum-club-video.mp4" type="video/mp4" width="100%" height="500" controls>
+            <video src="https://hewenbing21.github.io/NewPage/drum-club-video.mp4" controls width="80%" style="margin:30px auto;display:block;border-radius:10px;">
+                您的浏览器不支持HTML5视频播放
+            </video>
             <a href="#top" class="btn-top">返回顶部</a>
         </section>
 
